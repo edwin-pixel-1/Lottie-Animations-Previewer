@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#95abbf"
+    android:id="@+id/animation_container"
+    android:background="@color/BackgroundOne"
     tools:context="com.cobos.edwin.lottieloader.activities.AnimationActivity">
 
     <com.airbnb.lottie.LottieAnimationView

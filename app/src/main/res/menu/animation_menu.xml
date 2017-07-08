@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/loop_action"
+        android:icon="@drawable/ic_loop"
+        android:title="Loop"
+        android:visible="true"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/background_action"
+        android:icon="@drawable/ic_paint_bucket"
+        android:title="Change background"
+        android:visible="true"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>
